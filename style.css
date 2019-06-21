@@ -1,0 +1,36 @@
+.accordeon{
+    display: block;
+    width: 400px;
+    border: 1px solid gray;
+}
+
+.accordeon__item{
+    width: 100%
+}
+
+.accordeon__header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+}
+
+.accordeon__header span{
+    margin-left: 10px;
+}
+
+.accordeon__header:hover{
+    font-weight: bold;
+}
+
+.accordeon__content{
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+}
+
+.closed{
+    display: none;
+}
